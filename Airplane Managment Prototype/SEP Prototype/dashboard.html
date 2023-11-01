@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> User Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="dashboard.css" />
+    <link rel="stylesheet" type="text/css" href="hp.css" />
+    <script src="dashboard.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Airline Reservation System</h1>
+      <nav>
+        <!-- After login Nav -->
+        <h1 id="dashboard">Airline System</h1>
+        <ul>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="#">Book Ticket</a></li>
+          <li><a href="">Logout</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2 id="greet">Welcome</h2>
+      <section>
+        <h3>Upcoming Bookings</h3>
+        <table>
+          <tr>
+            <th>Flight Name</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Date</th>
+          </tr>
+          <tr id="Airplane row">
+            <td>Rose Gold</td>
+            <td>Mumbai</td>
+            <td>Pune</td>
+            <td>15-04-2023</td>
+          </tr>
+          <tr id="trainrow">
+            <td>Maharani Queen</td>
+            <td>Pune</td>
+            <td>Mumbai</td>
+            <td>20-04-2023</td>
+          </tr>
+        </table>
+      </section>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <section>
+        <form id="search-form">
+          <button type="submit">Search Flight</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Airline Reservation System. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
